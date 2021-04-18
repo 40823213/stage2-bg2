@@ -213,7 +213,7 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200818170909.1">&lt;section&gt;
     &lt;h2&gt;第一次的模擬&lt;/h2&gt;
    &lt;p&gt;&lt;a href="/downloads/stage2.zip"&gt;CoppeliaSim 第一次模擬檔下載&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;img alt="" height="350" src="https://raw.githubusercontent.com/40823232/stage2-bg2/main/images/1129.jpg" width="400"&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qs_aJNafFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;中心桿上的弧線太陡峭導致桿子上的球體卡住&lt;/p&gt;
 &lt;/section&gt;
 
@@ -221,14 +221,14 @@ vertical: body pane on the botton</t>
 <t tx="leo.20200818170953.1">&lt;section&gt;
     &lt;h2&gt;第二次的模擬&lt;/h2&gt;
 &lt;p&gt;&lt;a href="/downloads/4-14.zip"&gt;CoppeliaSim 第二次模擬檔下載&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;img alt="" height="350" src="" width="400"&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Ek2iuTPmg3w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;這次將第一次的弧線改得更平緩但中心桿沒辦法約束到桿件&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20200818171010.1">&lt;section&gt;
     &lt;h2&gt;第三次的模擬&lt;/h2&gt;
    &lt;p&gt;&lt;a href="/downloads/4-16.zip"&gt;CoppeliaSim 第三次模擬檔下載&lt;/a&gt;&lt;/p&gt;
-&lt;/p&gt;&lt;img alt="" height="350" src="" width="400"&gt;&lt;/p&gt;
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/XgOSriiNNqY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;中心軸用了圓柱凸輪來約束桿件但運轉還是不順暢
 
 &lt;/p&gt;
