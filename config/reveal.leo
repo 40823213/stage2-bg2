@@ -182,15 +182,15 @@ vertical: body pane on the botton</t>
 
     &lt;h3&gt;stage2-bg2分組報告&lt;/h3&gt;
     &lt;p&gt;
-        &lt;small&gt;Created by &lt;a href="https://github.com/40823213/cd2021"&gt;40823213&lt;/a&gt;， &lt;a href="https://github.com/40823232/cd2021"&gt;40823232&lt;/a&gt;，&lt;a href="https://github.com/40823234/cd2021"&gt;40823234&lt;/a&gt;，&lt;a href="https://github.com/40823235/cd2021"&gt;40823235&lt;/a&gt;&lt;/small&gt;
+        &lt;small&gt;小組成員 &lt;a href="https://github.com/40823213/cd2021"&gt;40823213&lt;/a&gt;， &lt;a href="https://github.com/40823232/cd2021"&gt;40823232&lt;/a&gt;，&lt;a href="https://github.com/40823234/cd2021"&gt;40823234&lt;/a&gt;，&lt;a href="https://github.com/40823235/cd2021"&gt;40823235&lt;/a&gt;&lt;/small&gt;
     &lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20200818170535.1">&lt;section&gt;
- &lt;h2&gt;作動方式&lt;/h2&gt;
+ &lt;h2&gt;主題及作動方式&lt;/h2&gt;
     &lt;h3&gt;遊樂設施(改版)&lt;/h3&gt;
     &lt;p&gt;
-      我們想利用三角函數的曲線來使桿子沿著軌跡升降
+      沿用stage1的主題，我們想利用三角函數的曲線來使桿子沿著軌跡移動。
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -211,28 +211,29 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818170909.1">&lt;section&gt;
-    &lt;h2&gt;Vertical Slides&lt;/h2&gt;
-    &lt;p&gt;Slides can be nested inside of each other.&lt;/p&gt;
-    &lt;p&gt;Use the &lt;em&gt;Space&lt;/em&gt; key to navigate through all slides.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#" class="navigate-down"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Down arrow"&gt;
-    &lt;/a&gt;
+    &lt;h2&gt;第一次的模擬&lt;/h2&gt;
+   &lt;p&gt;&lt;a href="/downloads/stage2.zip"&gt;CoppeliaSim 第一次模擬檔下載&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;img alt="" height="350" src="https://raw.githubusercontent.com/40823232/stage2-bg2/main/images/1129.jpg" width="400"&gt;&lt;/p&gt;
+&lt;p&gt;中心桿上的弧線太陡峭導致桿子上的球體卡住&lt;/p&gt;
 &lt;/section&gt;
+
 </t>
 <t tx="leo.20200818170953.1">&lt;section&gt;
-    &lt;h2&gt;Basement Level 1&lt;/h2&gt;
-    &lt;p&gt;Nested slides are useful for adding additional detail underneath a high level horizontal slide.&lt;/p&gt;
+    &lt;h2&gt;第二次的模擬&lt;/h2&gt;
+&lt;p&gt;&lt;a href="/downloads/4-14.zip"&gt;CoppeliaSim 第二次模擬檔下載&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;img alt="" height="350" src="" width="400"&gt;&lt;/p&gt;
+&lt;p&gt;這次將第一次的弧線改得更平緩但中心桿沒辦法約束到桿件&lt;/p&gt;
 &lt;/section&gt;
 </t>
 <t tx="leo.20200818171010.1">&lt;section&gt;
-    &lt;h2&gt;Basement Level 2&lt;/h2&gt;
-    &lt;p&gt;That's it, time to go back up.&lt;/p&gt;
-    &lt;br&gt;
-    &lt;a href="#/2"&gt;
-        &lt;img class="r-frame" style="background: rgba(255,255,255,0.1); transform: rotate(180deg);" width="178" height="238" data-src="https://static.slid.es/reveal/arrow.png" alt="Up arrow"&gt;
-    &lt;/a&gt;
-&lt;/section&gt;</t>
+    &lt;h2&gt;第三次的模擬&lt;/h2&gt;
+   &lt;p&gt;&lt;a href="/downloads/4-16.zip"&gt;CoppeliaSim 第三次模擬檔下載&lt;/a&gt;&lt;/p&gt;
+&lt;/p&gt;&lt;img alt="" height="350" src="" width="400"&gt;&lt;/p&gt;
+&lt;p&gt;中心軸用了圓柱凸輪來約束桿件但運轉還是不順暢
+
+&lt;/p&gt;
+&lt;/section&gt;
+</t>
 <t tx="leo.20200818171138.1">&lt;section data-auto-animate&gt;
     &lt;h2 data-id="code-title"&gt;Pretty Code&lt;/h2&gt;
     &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers&gt;
