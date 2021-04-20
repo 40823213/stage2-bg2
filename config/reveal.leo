@@ -20,18 +20,16 @@
 <v t="leo.20200818170222.1"><vh>slides div</vh>
 <v t="leo.20200818170328.1"><vh>slide 1</vh></v>
 <v t="leo.20200818170535.1"><vh>slide 2</vh></v>
+<v t="leo.20200818170725.1"><vh>slide 4</vh></v>
 <v t="leo.20200818170636.1"><vh>slide3</vh>
 <v t="leo.20200818170909.1"><vh>slide 3-1</vh></v>
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
 </v>
-<v t="leo.20200818170725.1"><vh>slide 4</vh></v>
 <v t="leo.20200818171138.1"><vh>slide 5 </vh></v>
 <v t="leo.20200818171215.1"><vh>slide 6</vh></v>
-<v t="leo.20200818171244.1"><vh>slide 7 </vh></v>
 <v t="leo.20200818171312.1"><vh>slide 8</vh></v>
-<v t="leo.20200818171344.1"><vh>slide 9</vh></v>
-<v t="leo.20200818171412.1"><vh>slide 10</vh></v>
+<v t="leo.20210420143155.1"><vh>newHeadline</vh></v>
 </v>
 </v>
 </v>
@@ -203,9 +201,9 @@ vertical: body pane on the botton</t>
 
 </t>
 <t tx="leo.20200818170725.1">&lt;section&gt;
-    &lt;h2&gt;Slides&lt;/h2&gt;
+    &lt;h2&gt;討論&lt;/h2&gt;
     &lt;p&gt;
-        Not a coder? Not a problem. There's a fully-featured visual editor for authoring these, try it out at &lt;a href="https://slides.com" target="_blank"&gt;https://slides.com&lt;/a&gt;.
+        一開始我們畫的是開放式的曲線來驅動桿子，不過模擬後發現桿子沒有地方約束，於是我們畫了像是圓柱凸輪的輪廓後，雖然桿子不會脫離，但是模擬還是會有抖動。
     &lt;/p&gt;
 &lt;/section&gt;
 
@@ -234,99 +232,28 @@ vertical: body pane on the botton</t>
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200818171138.1">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;Pretty Code&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            ...
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
-    &lt;p&gt;Code syntax highlighting courtesy of &lt;a href="https://highlightjs.org/usage/"&gt;highlight.js&lt;/a&gt;.&lt;/p&gt;
-&lt;/section&gt;
-
+<t tx="leo.20200818171138.1">
 </t>
-<t tx="leo.20200818171215.1">&lt;section data-auto-animate&gt;
-    &lt;h2 data-id="code-title"&gt;With animations&lt;/h2&gt;
-    &lt;pre data-id="code-animation"&gt;&lt;code class="hljs" data-trim data-line-numbers="|4,8-11|17|22-24"&gt;
-        import React, { useState } from 'react';
-
-        function Example() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-
-        function SecondExample() {
-          const [count, setCount] = useState(0);
-
-          return (
-            &amp;lt;div&amp;gt;
-              &amp;lt;p&amp;gt;You clicked {count} times&amp;lt;/p&amp;gt;
-              &amp;lt;button onClick={() =&amp;gt; setCount(count + 1)}&amp;gt;
-                Click me
-              &amp;lt;/button&amp;gt;
-            &amp;lt;/div&amp;gt;
-          );
-        }
-    &lt;/code&gt;&lt;/pre&gt;
-&lt;/section&gt;
-
+<t tx="leo.20200818171215.1">&lt;section&gt;
+            &lt;h2&gt;PDF&lt;/h2&gt;
+            &lt;iframe data-src="stage2-bg2分組報告.pdf" width="800" height="600" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"  style="border:3px solid #666; margin-bottom:5px; max-width: 100%;" allowfullscreen&gt; &lt;/iframe&gt;
+        &lt;/section&gt;
 </t>
-<t tx="leo.20200818171244.1">&lt;section&gt;
-    &lt;h2&gt;Point of View&lt;/h2&gt;
-    &lt;p&gt;
-        Press &lt;strong&gt;ESC&lt;/strong&gt; to enter the slide overview.
+<t tx="leo.20200818171312.1">&lt;section&gt;
+    &lt;h2&gt;心得&lt;/h2&gt;
+    &lt;p&gt;這次四人一組的主題雖然是和兩人一組的主題相同，所以更能比
+較出前四週和後五週的差異，兩人一組時要做的事情很多時間比
+較倉促，四人一組會比較能透過討論來分配每周的進度，因為有
+四個人所以處理同樣的問題顯得更加有效率，不僅是修改圖的想
+法，還是模擬所遇到的問題，總是能比較快速地使進度往目標推
+進，希望能透過這五週的經驗在八人一組時能完成所要做的事。
     &lt;/p&gt;
-    &lt;p&gt;
-        Hold down the &lt;strong&gt;alt&lt;/strong&gt; key (&lt;strong&gt;ctrl&lt;/strong&gt; in Linux) and click on any element to zoom towards it using &lt;a href="http://lab.hakim.se/zoom-js"&gt;zoom.js&lt;/a&gt;. Click again to zoom back out.
+&lt;/section&gt;</t>
+<t tx="leo.20210420143155.1">&lt;section&gt;
+    &lt;h2&gt;參考資料&lt;/h2&gt;
+    &lt;p&gt;https://www.evget.com/article/2020/8/13/37561.html
+    https://www.youtube.com/watch?v=s5O9_Ny9ufA
     &lt;/p&gt;
-    &lt;p&gt;
-        (NOTE: Use ctrl + click in Linux.)
-    &lt;/p&gt;
-&lt;/section&gt;
-
-</t>
-<t tx="leo.20200818171312.1">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;h2&gt;Auto-Animate&lt;/h2&gt;
-    &lt;p&gt;Automatically animate matching elements across slides with &lt;a href="https://revealjs.com/auto-animate/"&gt;Auto-Animate&lt;/a&gt;.&lt;/p&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: #999; width: 50px; height: 50px; margin: 10px; border-radius: 5px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20200818171344.1">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-hstack justify-center"&gt;
-        &lt;div data-id="box1" data-auto-animate-delay="0" style="background: cyan; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" data-auto-animate-delay="0.1" style="background: magenta; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" data-auto-animate-delay="0.2" style="background: yellow; width: 150px; height: 100px; margin: 10px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
-&lt;/section&gt;
-</t>
-<t tx="leo.20200818171412.1">&lt;section data-auto-animate data-auto-animate-easing="cubic-bezier(0.770, 0.000, 0.175, 1.000)"&gt;
-    &lt;div class="r-stack"&gt;
-        &lt;div data-id="box1" style="background: cyan; width: 300px; height: 300px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box2" style="background: magenta; width: 200px; height: 200px; border-radius: 200px;"&gt;&lt;/div&gt;
-        &lt;div data-id="box3" style="background: yellow; width: 100px; height: 100px; border-radius: 200px;"&gt;&lt;/div&gt;
-    &lt;/div&gt;
-    &lt;h2 style="margin-top: 20px;"&gt;Auto-Animate&lt;/h2&gt;
-&lt;/section&gt;
-
-</t>
+&lt;/section&gt;</t>
 </tnodes>
 </leo_file>
