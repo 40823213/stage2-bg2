@@ -26,7 +26,13 @@
 <v t="leo.20200818170953.1"><vh>slide 3-2</vh></v>
 <v t="leo.20200818171010.1"><vh>slide 3-3</vh></v>
 </v>
-<v t="leo.20200818171138.1"><vh>slide 5 </vh></v>
+<v t="leo.20200818171138.1"><vh>slide 5 </vh>
+<v t="leo.20210422214842.1"><vh>newHeadline</vh></v>
+<v t="leo.20210422214848.1"><vh>newHeadline</vh></v>
+<v t="leo.20210422214849.1"><vh>newHeadline</vh></v>
+<v t="leo.20210422214849.2"><vh>newHeadline</vh></v>
+<v t="leo.20210422221033.1"><vh>newHeadline</vh></v>
+</v>
 <v t="leo.20200818171215.1"><vh>slide 6</vh></v>
 <v t="leo.20200818171312.1"><vh>slide 8</vh></v>
 <v t="leo.20210420143155.1"><vh>newHeadline</vh></v>
@@ -210,7 +216,6 @@ vertical: body pane on the botton</t>
 </t>
 <t tx="leo.20200818170909.1">&lt;section&gt;
     &lt;h2&gt;第一次的模擬&lt;/h2&gt;
-   &lt;p&gt;&lt;a href="/downloads/stage2.zip"&gt;CoppeliaSim 第一次模擬檔下載&lt;/a&gt;&lt;/p&gt;
 &lt;iframe width="560" height="315" src="https://www.youtube.com/embed/Qs_aJNafFXQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;中心桿上的弧線太陡峭導致桿子上的球體卡住&lt;/p&gt;
 &lt;/section&gt;
@@ -232,7 +237,12 @@ vertical: body pane on the botton</t>
 &lt;/p&gt;
 &lt;/section&gt;
 </t>
-<t tx="leo.20200818171138.1">
+<t tx="leo.20200818171138.1">&lt;!-- Example of nested vertical slides --&gt;
+&lt;section&gt;
+    @others
+&lt;/section&gt;
+
+
 </t>
 <t tx="leo.20200818171215.1">&lt;section&gt;
             &lt;h2&gt;PDF&lt;/h2&gt;
@@ -255,5 +265,44 @@ vertical: body pane on the botton</t>
     https://www.youtube.com/watch?v=s5O9_Ny9ufA
     &lt;/p&gt;
 &lt;/section&gt;</t>
+<t tx="leo.20210422214842.1">&lt;section&gt;
+    &lt;h2&gt;各週進度&lt;/h2&gt;
+     &lt;h3&gt;w6進度&lt;/h3&gt;
+ &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/1129.jpg" width="250
+                " hight="200"&gt;
+&lt;p&gt;在模擬的時候，中心桿上的弧線太陡峭導致桿子的球體卡住，無法順暢的旋轉。&lt;/p&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20210422214848.1">&lt;section&gt;
+     &lt;h2&gt;w7進度&lt;/h2&gt;
+     
+&lt;p&gt;這次將第一次模擬的弧線改得更平緩，但因為畫的弧線無法約束到桿件，以至於在一定的擺動後，桿子會脫離軌道。所以修改成以下三點:
+1.把軌道換大一點，支架加強，滾輪從圓的改制成方的增加接觸面積。
+2.用支架架起方形
+3. 圓潤的方形滑塊滑塊&lt;/p&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210422214849.1">&lt;section&gt;
+     &lt;h3&gt;修改圖&lt;/h3&gt;
+ &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/4-19-4.PNG" width="550 " hight="400"&gt;
+ &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/4-19-2.png" width="550 " hight="400"&gt;
+&lt;/section&gt;
+</t>
+<t tx="leo.20210422214849.2">&lt;section&gt;
+     &lt;h3&gt;w8進度&lt;/h3&gt;
+ &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/4-22.PNG" width="550
+                " hight="300"&gt;
+&lt;p&gt;經過前面三次模擬後，我們想畫出類似圓柱凸輪的樣子，使桿子能按照軌道的路徑移動。&lt;/p&gt;
+&lt;/section&gt;
+
+</t>
+<t tx="leo.20210422221033.1">&lt;section&gt;
+     &lt;h3&gt;w8問題&lt;/h3&gt;
+ &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/4-22-2.png" width="450 " hight="300"&gt; &lt;image src="https://raw.githubusercontent.com/40823213/stage2-bg2/main/images/%E6%93%B7%E5%8F%964444.PNG" width="450 " hight="300"&gt;
+&lt;p&gt;支架要克服伸長和縮短的問題，用兩工件製成可伸縮之支架較為不理想，下面這種可以支援他在軸上滑動&lt;/p&gt;
+&lt;/section&gt;
+
+</t>
 </tnodes>
 </leo_file>
